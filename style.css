@@ -1,0 +1,208 @@
+html
+{
+    height:100%;
+}
+
+/* BODY */
+body {
+    font-family:  Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    /* font-family : 'Bookman Old Style' ; Belle font pour un autre*/;
+    font-size:11pt;
+    background-color: white;
+    max-width:60em;
+    margin:0 auto;
+    padding:0;
+    height:100%;
+    text-align: left;
+}
+
+/*NAV */
+nav ul {
+    top: 0;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #096792;;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color:  #052d3f;
+}
+
+
+/***************************************************/
+
+header {
+    text-align: center;
+    max-width: 60em;
+    padding:  auto;
+    margin:  auto;
+}
+
+header h1 { /* just for the name */
+    font-size: 30px;
+    color: #096792;
+}
+
+header h2 { /* just for the name */
+    font-size: 24px;
+}
+
+header h3 { /* just for the name */
+    font-size: 20px;
+}
+
+/***************/
+/*SECTION */
+section {
+    background-color: white;
+    max-width: 60em;
+    line-height: 18px;
+    padding: 5px 0px 0px 0px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+
+section h1 {
+    color: #096792;
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 20px;
+}
+
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+
+section ul {
+    padding: 10px 10px 10px 10px; 
+}
+
+section li {
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+section a {
+    color: #111FF3;
+}
+
+section a:hover {
+    color:#0299bb;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+address {
+    margin-left:20px;
+    display: block;
+  }
+
+
+dl {
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+dt {
+    font-weight: bold;
+    float: left;
+    width: 15%;
+    min-width:6em;
+    margin-top: 20px
+    
+}
+
+dd {
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+
+td {
+    padding:20px;
+}
+td img {
+    display: block;
+    width: auto;
+}
+
+
+footer{
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Abstract */
+.spoilerbutton_abstract {
+    color:#111FF3;
+    background-color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    border-radius: 10px;
+    border: 1px solid #4B4695;
+    margin-left: 25px;
+}
+
+.spoilerbutton_abstract:hover {
+    color:white;
+    background-color: #111FF3;
+}
+
+.abstract { 
+    max-width:60em;
+    padding: 3px 0px 5px 5px;
+    margin:0, auto;
+    white-space: pre-wrap;
+    display:none;
+}
+
+.spoilerbutton_abstrat[value="Show abstract"] + .abstract {
+    display:none;
+}
+.spoilerbutton_abstract[value="Hide abstract"] + .abstract {
+    display:block;
+} 
+
+
+/***************/
+/* CORONAVIRUS */
+#coronavirus {
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid red;
+    padding: 5px 0px 0px 15px;
+    margin:15px;
+    background-color: yellow;
+    color:red;
+}
